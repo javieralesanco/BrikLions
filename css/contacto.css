@@ -25,7 +25,6 @@ form fieldset textarea {
     font-size: 1.2em;
 }
 
-/*////////*/
 input,
 button,
 textarea {
@@ -53,4 +52,16 @@ textarea:empty {
 input:valid,
 textarea:valid {
     border-color: #0A0;
+}
+
+@media screen and (max-width: 1100px) {
+    main {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    iframe {
+        width: 80%;
+        height: 15em;
+    }
 }
