@@ -1,0 +1,62 @@
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+legend {
+    text-align: center;
+}
+
+form fieldset {
+    border-radius: 1em;
+    color: #FFF;
+    display: grid;
+}
+
+form fieldset label,
+form fieldset select,
+form fieldset button,
+form fieldset textarea {
+    margin: 0.5em;
+    font-size: 1.2em;
+}
+
+/*////////*/
+select,
+button,
+textarea {
+    border: 2px solid #000;
+    border-radius: 0.4em;
+    transition: 0.2s linear;
+    font-family: sans-serif;
+}
+
+button {
+    padding: 0.5em;
+}
+
+button:hover {
+    background-color: #000;
+    color: #FFF;
+    cursor: pointer;
+}
+
+textarea:empty {
+    border-color: #A00;
+}
+
+textarea:valid {
+    border-color: #0A0;
+}
+
+.centradito {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1em;
+}
+
+#fichar {
+    width: 80%;
+    font-size: 2em;
+}

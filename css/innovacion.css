@@ -1,0 +1,29 @@
+article {
+    margin: 1em;
+    background-color: #FFF;
+    padding: 1em;
+    border-radius: 1em;
+}
+
+h1 {
+    font-variant: small-caps;
+    font-size: 2em;
+}
+
+article figure img {
+    width: 25vw;
+}
+
+.contentLeft {
+    display: flex;
+    flex-direction: row;
+}
+
+.contentRight {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+p {
+    padding: 0.1em;
+}

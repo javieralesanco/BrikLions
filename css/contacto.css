@@ -1,0 +1,56 @@
+main {
+    display: flex;
+    justify-content: space-around;
+}
+
+legend {
+    text-align: center;
+}
+
+iframe {
+    width: 40%;
+}
+
+form fieldset {
+    border-radius: 1em;
+    color: #FFF;
+    display: grid;
+}
+
+form fieldset label,
+form fieldset input,
+form fieldset button,
+form fieldset textarea {
+    margin: 0.5em;
+    font-size: 1.2em;
+}
+
+/*////////*/
+input,
+button,
+textarea {
+    border: 2px solid #000;
+    border-radius: 0.4em;
+    transition: 0.2s linear;
+    font-family: sans-serif;
+}
+
+button {
+    padding: 0.5em;
+}
+
+button:hover {
+    background-color: #000;
+    color: #FFF;
+    cursor: pointer;
+}
+
+input:invalid,
+textarea:empty {
+    border-color: #A00;
+}
+
+input:valid,
+textarea:valid {
+    border-color: #0A0;
+}

@@ -1,0 +1,16 @@
+.grafico {
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+img {
+    width: 24vw;
+    background-color: #FFF;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+}
